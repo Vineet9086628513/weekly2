@@ -95,7 +95,8 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: cadetblue;
-} 
-.fa-angle-down:before {
-    content: "\f107";
+}
+footer div {
+    text-align: center;
+    color: wheat;
 }
