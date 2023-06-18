@@ -1,0 +1,101 @@
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 4rem;
+    position: fixed;
+    background-color: rgb(219, 217, 215);
+    z-index: 2;
+}
+.info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:rgb(rgb(40, 34, 34), rgb(22, 23, 22), blue);
+}
+.info>div {
+    font-size: 120%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+#abt-sub {
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    display: none;
+}
+
+.section1 {
+    display: flex;
+    position: relative;
+    top: 4rem;
+}
+.description {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.description>div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+PandL {
+    width: 50%;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+element.style {
+    font-size: 250%;
+    margin: 1% 4%;
+}
+.section2 {
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 button {
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+footer {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+} 
+.fa-angle-down:before {
+    content: "\f107";
+}
